@@ -31,3 +31,56 @@ CREATE TABLE retail_sales
     cogs FLOAT,
     total_sale FLOAT
 );
+
+## Overview
+This project analyzes retail sales data using SQL queries to uncover trends, customer behavior, and sales performance.
+
+## Dataset Information
+The dataset consists of transactional sales records with the following fields:
+
+| Column Name       | Description                              |
+|-------------------|------------------------------------------|
+| `transactions_id` | Unique transaction identifier           |
+| `sale_date`       | Date of the sale                        |
+| `sale_time`       | Time of the sale                        |
+| `customer_id`     | Unique customer identifier              |
+| `gender`         | Customer's gender                       |
+| `age`            | Customer's age                          |
+| `category`       | Product category                        |
+| `quantiy`        | Number of units sold                    |
+| `price_per_unit` | Price per unit of the product           |
+| `cogs`           | Cost of goods sold                      |
+| `total_sale`     | Total revenue generated                 |
+
+## SQL Analysis Performed
+### 1️⃣ **Sales Trends & Performance**
+- **Monthly Revenue:** Total revenue generated each month.
+- **Peak Sales Time:** Finding the hours with the highest sales.
+- **Average Order Value:** Analyzing the spending behavior of customers.
+
+### 2️⃣ **Customer Insights**
+- **Gender & Age Distribution:** Understanding customer demographics.
+- **Repeat Customers:** Identifying loyal customers.
+
+### 3️⃣ **Product & Category Analysis**
+- **Top-Selling Categories:** Identifying which product categories generate the most revenue.
+- **Category-Wise Profit Margins:** Calculating the most profitable product lines.
+
+### 4️⃣ **Operational Efficiency**
+- **COGS vs. Sales:** Analyzing cost of goods sold per month.
+- **Best Performing Days:** Finding the most profitable days of the week.
+
+## Sample SQL Queries
+```sql
+-- Total revenue per month
+SELECT strftime('%Y-%m', sale_date) AS month, SUM(total_sale) AS total_revenue
+FROM retail_sales_analysis
+GROUP BY month
+ORDER BY month;
+
+-- Most frequently purchased product category
+SELECT category, SUM(quantiy) AS total_quantity_sold
+FROM retail_sales_analysis
+GROUP BY category
+ORDER BY total_quantity_sold DESC
+LIMIT 5;
