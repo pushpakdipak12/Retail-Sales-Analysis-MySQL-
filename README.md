@@ -206,5 +206,73 @@ GROUP BY shift;
 
 ```
 
+## 📈 Key Findings
+
+### **1️⃣ Monthly Revenue Trends**
+
+Highest revenue month: December (₹141,025)
+
+Lowest revenue month: February (₹41,280)
+
+Revenue spikes in September (₹129,180), October (₹125,615), and November (₹126,050), indicating strong seasonal demand.
+
+2️⃣ Daily Sales Trends
+
+Peak sales on 1st, 10th, 13th, 21st, and 26th of the month.
+
+Lower sales towards the end of the month (31st), possibly due to budget constraints.
+
+3️⃣ Average Order Value (AOV)
+
+₹457.08 per customer on average.
+
+4️⃣ Customer Demographics
+
+Gender Distribution: Male (975), Female (1012)
+
+Age Group with Most Purchases: 36-50 (625 purchases), followed by 50+ (617 purchases)
+
+5️⃣ Product Performance
+
+Highest revenue-generating category: Electronics (₹311,445)
+
+Most frequently purchased category: Clothing (1,780 items)
+
+Highest average order value:
+
+Beauty (₹469.38)
+
+Electronics (₹459.36)
+
+Clothing (₹444.12)
+
+6️⃣ Cost & Profit Analysis
+
+Total Cost of Goods Sold (COGS) peaks in September (₹30,294), October, and November.
+
+Profit Margins:
+
+Beauty: 79.68%
+
+Clothing: 79.31%
+
+Electronics: 78.57%
+
+7️⃣ Weekly Sales Performance
+
+High sales spikes on Nov 22, Dec 12, Dec 13, indicating possible promotions or peak shopping days.
+
+Sales peak at the start and mid-month but decline towards the end of the month.
+
+💡 Business Insights
+
+Holiday Season Boost: Strong Q4 (Sept-Dec) sales indicate holiday-driven shopping.
+
+Product Focus: Electronics and Beauty categories have high revenue and profit margins.
+
+Target Age Group: Marketing campaigns should focus on customers aged 36-50 and 50+.
+
+Strategic Discounting: Implementing end-of-month discounts can help increase sales during slow periods.
+
 
 
