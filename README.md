@@ -185,6 +185,9 @@ ORDER BY category;
 
 ### **7️⃣ Sales Shift Analysis**
 
+
+```sql
+
 -- Sales by shift (Morning, Afternoon, Evening)
 WITH hourly_sale AS (
     SELECT *,
