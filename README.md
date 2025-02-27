@@ -206,7 +206,7 @@ GROUP BY shift;
 
 ```
 
-📈 Key Findings
+## **📈 Key Findings**
 
 1️⃣ Monthly Revenue Trends
 
@@ -254,7 +254,7 @@ GROUP BY shift;
     High sales spikes on Nov 22, Dec 12, Dec 13, indicating possible promotions or peak shopping days.
     Sales peak at the start and mid-month but decline towards the end of the month.
 
-💡 Business Insights
+## **💡 Business Insights**
 
 1️⃣ Holiday Season Boost
 
